@@ -117,7 +117,6 @@ void CheckAllButtons(void) {
     {
       if ( buttbx.key[i].stateChanged )
       {
-        Serial.write(printf("%s\n", buttbx.key[i].kcode));
         switch (buttbx.key[i].kstate) {
           case PRESSED:
           case HOLD:
